@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>POYWX: Signal Cascade — tap one node, watch the chain go</title>
+<meta name="description" content="POYWX: Signal Cascade is a rhythm-puzzle game for iPhone and iPad. One tap starts a cascade; 50 hand-checked levels, a daily run everyone shares, and no account, no server, no tracking.">
+<link rel="canonical" href="https://berkemd.github.io/poywx/">
+<meta name="theme-color" content="#07070c">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="POYWX: Signal Cascade">
+<meta property="og:title" content="POYWX: Signal Cascade — tap one node, watch the chain go">
+<meta property="og:url" content="https://berkemd.github.io/poywx/">
+<meta property="og:description" content="POYWX: Signal Cascade is a rhythm-puzzle game for iPhone and iPad. One tap starts a cascade; 50 hand-checked levels, a daily run everyone shares, and no account, no server, no tracking.">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="POYWX: Signal Cascade — tap one node, watch the chain go">
+<meta name="twitter:description" content="POYWX: Signal Cascade is a rhythm-puzzle game for iPhone and iPad. One tap starts a cascade; 50 hand-checked levels, a daily run everyone shares, and no account, no server, no tracking.">
+<link rel="stylesheet" href="ortak.css">
+<style>
+  .hero { padding: 56px 0 18px; }
+  .hero h1 { font-size: 44px; letter-spacing: -.03em; }
+  .hero .lede { max-width: 46ch; }
+  .nodes { display: flex; gap: 10px; margin: 30px 0 6px; flex-wrap: wrap; }
+  .node {
+    width: 40px; height: 40px; border-radius: 12px;
+    border: 1px solid var(--line); background: var(--bg-2);
+    display: grid; place-items: center;
+  }
+  .dot { width: 13px; height: 13px; border-radius: 50%; }
+  .grid2 { display: grid; gap: 14px; grid-template-columns: 1fr 1fr; margin: 26px 0; }
+  @media (max-width: 560px) { .grid2 { grid-template-columns: 1fr; } .hero h1 { font-size: 32px; } }
+</style>
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="index.html">POY<span>WX</span></a>
+    <nav>
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="support.html">Support</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <input class="langradio" type="radio" name="lang" id="tr">
+  <input class="langradio" type="radio" name="lang" id="en" checked>
+
+  <div class="langsw" style="margin-top:26px">
+    <label for="tr">Türkçe</label>
+    <label for="en">English</label>
+  </div>
+
+  <!-- ================= TÜRKÇE ================= -->
+  <div class="lang lang-tr">
+    <section class="hero">
+      <h1>POYWX: Signal Cascade</h1>
+      <p class="lede">Renk, zamanlama ve örüntü tanıma duyunu sınayan bir ritim
+      bulmacası. Parlayan sinyal düğümlerine ritmi tutturarak dokun, kaskadı
+      başlat, zincirin nereye kadar gittiğini gör.</p>
+
+      <div class="nodes" aria-hidden="true">
+        <div class="node"><span class="dot" style="background:var(--a)"></span></div>
+        <div class="node"><span class="dot" style="background:var(--b)"></span></div>
+        <div class="node"><span class="dot" style="background:var(--c)"></span></div>
+        <div class="node"><span class="dot" style="background:var(--ok)"></span></div>
+        <div class="node"><span class="dot" style="background:var(--a)"></span></div>
+        <div class="node"><span class="dot" style="background:var(--b)"></span></div>
+      </div>
+    </section>
+
+    <div class="grid2">
+      <div class="card">
+        <h3>Sunucu yok</h3>
+        <p style="margin:0">Hesap açmazsın, e-posta vermezsin. Oyun cihazında
+        çalışır ve orada kalır.</p>
+      </div>
+      <div class="card">
+        <h3>Reklam yok</h3>
+        <p style="margin:0">Araya giren video yok, izleme yok, reklam kimliği
+        yok.</p>
+      </div>
+      <div class="card">
+        <h3>Ücretsiz oynanır</h3>
+        <p style="margin:0">Temel oyunun tamamı ücretsizdir. Pro yalnızca
+        sınırsız Endless Mode ekler.</p>
+      </div>
+      <div class="card">
+        <h3>Tek dokunuş</h3>
+        <p style="margin:0">Kural bir cümlede anlatılır, ustalaşması aylar
+        alır.</p>
+      </div>
+    </div>
+
+    <h2>POYWX Pro</h2>
+    <p>İsteğe bağlı, otomatik yenilenen abonelik: haftalık <strong>4,99 $</strong>,
+    yıllık <strong>29,99 $</strong> (ABD doları referans; satın alma ekranında
+    kendi para biriminde gösterilir). Dönem bitiminden 24 saat önce
+    kapatılmazsa kendiliğinden yenilenir; <em>Ayarlar → adınız →
+    Abonelikler</em>'den her an iptal edilir.
+    Ayrıntı: <a href="terms.html">Kullanım Koşulları</a> ·
+    <a href="privacy.html">Gizlilik Politikası</a></p>
+  </div>
+
+  <!-- ================= ENGLISH ================= -->
+  <div class="lang lang-en">
+    <section class="hero">
+      <h1>POYWX: Signal Cascade</h1>
+      <p class="lede">A rhythm puzzle that tests your sense of colour, timing
+      and pattern. Tap the glowing signal nodes on the beat, start the cascade,
+      and see how far the chain runs.</p>
+
+      <div class="nodes" aria-hidden="true">
+        <div class="node"><span class="dot" style="background:var(--a)"></span></div>
+        <div class="node"><span class="dot" style="background:var(--b)"></span></div>
+        <div class="node"><span class="dot" style="background:var(--c)"></span></div>
+        <div class="node"><span class="dot" style="background:var(--ok)"></span></div>
+        <div class="node"><span class="dot" style="background:var(--a)"></span></div>
+        <div class="node"><span class="dot" style="background:var(--b)"></span></div>
+      </div>
+    </section>
+
+    <div class="grid2">
+      <div class="card">
+        <h3>No servers</h3>
+        <p style="margin:0">No account, no email address. The game runs on your
+        device and stays there.</p>
+      </div>
+      <div class="card">
+        <h3>No ads</h3>
+        <p style="margin:0">No interstitial videos, no tracking, no advertising
+        identifier.</p>
+      </div>
+      <div class="card">
+        <h3>Free to play</h3>
+        <p style="margin:0">The core game is free in full. Pro only adds
+        unlimited Endless Mode.</p>
+      </div>
+      <div class="card">
+        <h3>One tap</h3>
+        <p style="margin:0">The rule fits in a sentence; getting good at it
+        takes months.</p>
+      </div>
+    </div>
+
+    <h2>POYWX Pro</h2>
+    <p>Optional auto-renewing subscription: <strong>$4.99</strong> weekly or
+    <strong>$29.99</strong> annually (USD reference; shown in your own currency
+    at purchase). It renews automatically unless turned off 24 hours before the
+    period ends, and can be cancelled any time in <em>Settings → your name →
+    Subscriptions</em>.
+    Detail: <a href="terms.html">Terms of Use</a> ·
+    <a href="privacy.html">Privacy Policy</a></p>
+  </div>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    © 2026 Berke Kahraman ·
+    <a href="index.html">POYWX</a> ·
+    <a href="privacy.html">Privacy</a> ·
+    <a href="terms.html">Terms</a> ·
+    <a href="support.html">Support</a>
+  </div>
+</footer>
+
+</body>
+</html>
